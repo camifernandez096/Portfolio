@@ -1,0 +1,47 @@
+.container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: fixed;
+    background-color: #f03c00;
+    z-index: 1;
+}
+.row{
+    margin-left: unset !important;
+    margin-right: unset !important;
+}
+.redes{
+    margin-right: 0.5em;
+}
+.btn{
+    border-width: medium;
+}
+#logoAP{
+    width: 150px;
+}
+img{
+    width: 45px;
+    }
+#logoInti{
+        width: 150px;
+    }
+    img{
+        width: 50px;
+        }
+
+/*para la vista de celular*/
+@media (max-width: 575px){
+    .container{
+        flex-direction: column;
+        position: relative;
+    }
+    .redes{
+        display: flex;
+        /*flex-direction: column;*/
+        align-items: center;
+    }
+    .redes img{
+        margin: 0.3em;
+    }
+}
+

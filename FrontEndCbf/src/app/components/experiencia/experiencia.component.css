@@ -1,0 +1,23 @@
+.row{
+    padding: 20px;
+}
+div {
+    background-color: white
+}
+h1, h3 {
+    display: inline;
+    }
+ /*estilo nombre experiencia*/
+#nombreexperiencia {
+    font-weight: bolder;
+    color: white ;
+    text-align: center;
+    background-color:rgb(228, 59, 29) ;
+    }
+    /*estilo experiencia laboral*/
+#experiencialaboral {
+    font-weight: bolder;
+    color: white ;
+    text-align: center;
+    background-color:rgb(228, 59, 29) ;
+    }

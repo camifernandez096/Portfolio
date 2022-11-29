@@ -1,0 +1,11 @@
+.row{
+    background-color: white;
+    padding: 20px;
+}
+/*estilo hys*/
+#hys{
+    font-weight: bolder;
+    color:rgb(228, 59, 29);
+    background-color: white;
+    text-align: center;
+}
